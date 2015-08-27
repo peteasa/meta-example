@@ -10,5 +10,5 @@
 
 ## 7020_hdmi After HDMI components added from my example repository 
 SRC_URI = "git://github.com/pascom/examples.git;protocol=https"
-SRCREV = "--enter your desired sha1 here!--"
+SRCREV = "f193d497a44f5276dcbe3aff7da0d25ded5a584b"
 
