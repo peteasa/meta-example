@@ -1,4 +1,6 @@
 
+LICENSE = "GPLv3"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=e6a600fd5e1d9cbde2d983680233ad02"
 
 ## "Official fpga" use this as a baseline
 #SRC_URI = "git://github.com/parallella/parallella-hw.git;protocol=https"
