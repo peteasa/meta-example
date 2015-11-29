@@ -2,16 +2,13 @@
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=e6a600fd5e1d9cbde2d983680233ad02"
 
-## "Official fpga" use this as a baseline
-#SRC_URI = "git://github.com/parallella/parallella-hw.git;protocol=https"
-#SRCREV = "a129797ed30c2ff09801fbf4ca4b90643b6cd365"
-
 ### You could setup a local bare repository with the fpga for example
 ### SRC_URI = "git://~/parallella/examples.git"
 ### SRCREV = "--enter your desired sha1 here!--"
 
-## 7020_hdmi After HDMI components added from my example repository 
-EXAMPLEBR = "elink-redesign"
+## 7020_hdmi with oh fpga Before HDMI components added
+## watch this space for the oh fpga with HDMI interface!
+EXAMPLEBR = "parallella-oh"
 SRC_URI = "git://github.com/peteasa/examples.git;branch=${EXAMPLEBR}"
-SRCREV = "f193d497a44f5276dcbe3aff7da0d25ded5a584b"
+SRCREV = "3e3fdf9bd04c47802f9d23b3c689e93a3da65ba6"
 
