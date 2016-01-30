@@ -24,6 +24,9 @@ require recipes-parallella/images/hdmi-image.bb
 
 IMAGE_FEATURES += "dev-pkgs tools-profile tools-sdk"
 
-### Perhaps add other tools and packages for example
-### IMAGE_INSTALL += "i2c-tools fim v4l-utils media-ctl yavta alsa-tools alsa-utils alsa-lib pulseaudio"
+### Perhaps add other meta layers for other tools and packages for example
+### from meta-openembedded:
+### IMAGE_INSTALL += "fim v4l-utils media-ctl yavta"
 
+### For now keep it simple. Add tools and packages already available in poky:
+IMAGE_INSTALL += "i2c-tools alsa-tools alsa-utils alsa-lib pulseaudio"
