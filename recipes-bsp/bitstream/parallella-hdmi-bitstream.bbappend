@@ -6,9 +6,8 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=e6a600fd5e1d9cbde2d983680233ad02"
 ### SRC_URI = "git://~/parallella/examples.git"
 ### SRCREV = "--enter your desired sha1 here!--"
 
-## 7020_hdmi with oh fpga Before HDMI components added
-## watch this space for the oh fpga with HDMI interface!
+## 7020_hdmi and 7010_hdmi oh fpga with hdmi
 EXAMPLEBR = "parallella-oh"
 SRC_URI = "git://github.com/peteasa/examples.git;branch=${EXAMPLEBR}"
-SRCREV = "6ef17ae0b492170e4429464ed9c2b747dbc804cf"
+SRCREV = "49d95db0597d6e1d21c5a2e0b047e83e14ffd0bb"
 
