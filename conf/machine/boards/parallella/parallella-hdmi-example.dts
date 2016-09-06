@@ -1,5 +1,0 @@
-/dts-v1/;
-/include/ "zynq7-base.dtsi"
-/include/ "parallella-example.dtsi"
-/include/ "parallella-hdmi-example.dtsi"
-
